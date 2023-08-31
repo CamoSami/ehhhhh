@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "I am sleepy";
+}
+@model Message
+
+<div class="text-center">
+    <h2>Buon ngu waaaaaaaaaaaaaaaaaaaaaaaa</h2>
+    <h3>Bao gio het gioooooooooooooooooooo</h3>
+    <h4>Kho kho kho kho kho kho kho kho kh</h4>
+    <form action="" method="post">
+        Message: <input asp-for="msg" /><br />
+        Page: <input asp-for="pgnum" /><br />
+        <input type="submit" name="submit" />
+    </form>
+
+    <h2>@this.ViewBag.Message</h2>
+    <h2>@this.ViewBag.Page</h2>
+    <h2>@this.ViewBag.Date</h2>
